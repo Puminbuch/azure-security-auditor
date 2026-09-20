@@ -1,5 +1,6 @@
 [
     {
+    "type": "storage_account" ,
     "name": "meinunsichererstorage",
     "public_access":true,
     "encryption_enabled":false
@@ -7,6 +8,7 @@
     ,
 
     {
+    "type":"storage_account",
     "name": "meinsichererstorage",
     "public_access":false,
     "encryption_enabled":true
@@ -14,8 +16,31 @@
     ,
 
     {
+    "type":"storage_account",
     "name": "meinhalbsichererstorage",
     "public_access":true,
     "encryption_enabled":true
+    } ,
+    {
+        "type": "vm",
+        "name": "meinevm",
+        "ssh_open_to_all": true,
+        "rdp_open_to_all": false,
+        "disk_encrypted": true
+    } ,
+    {
+        "type":"vm",
+        "name": "meinevm2",
+        "ssh_open_to_all": false,
+        "rdp_open_to_all": true,
+        "disk_encrypted": false
+    } ,
+    {
+        "type":"vm",
+        "name": "meinevm3",
+        "ssh_open_to_all": false,
+        "rdp_open_to_all": false,
+        "disk_encrypted": true
     }
+
 ]
