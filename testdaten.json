@@ -1,0 +1,21 @@
+[
+    {
+    "name": "meinunsichererstorage",
+    "public_access":true,
+    "encryption_enabled":false
+    }
+    ,
+
+    {
+    "name": "meinsichererstorage",
+    "public_access":false,
+    "encryption_enabled":true
+    }
+    ,
+
+    {
+    "name": "meinhalbsichererstorage",
+    "public_access":true,
+    "encryption_enabled":true
+    }
+]
